@@ -1,0 +1,154 @@
+# RAINFALL DATA ANALYZER
+## TEST CASES AND EXECUTION REPORT
+
+**Project Name:** Rainfall Data Analyzer  
+**Programming Language:** Python  
+**Student Name:** Janvi  
+**PS Number:** __________  
+**College:** Rungta University
+
+---
+
+## TC-01: Normal Rainfall Data
+
+**Objective:** To check whether the program loads and analyzes the normal rainfall dataset correctly.
+
+**Input:** Original 12-month rainfall CSV file.
+
+**Expected Output:**
+- Valid records: 12
+- Invalid records: 0
+- Total rainfall: 1405 mm
+- Average rainfall: 117.08 mm
+- Wettest month: July
+- Driest month: February
+
+**Actual Output:** The program loaded all 12 records and displayed the correct rainfall analysis.
+
+**Status:** PASS
+
+**Screenshot:** Insert screenshot of the output.
+
+---
+
+## TC-02: Single Rainfall Record
+
+**Objective:** To check whether the program works with only one valid rainfall record.
+
+**Input:**
+June, 200 mm
+
+**Expected Output:**
+- Valid records: 1
+- Total rainfall: 200 mm
+- Average rainfall: 200 mm
+- Maximum rainfall: 200 mm
+- Minimum rainfall: 200 mm
+- Standard deviation: 0
+
+**Actual Output:** The program successfully analyzed the single rainfall record.
+
+**Status:** PASS
+
+**Screenshot:** Insert screenshot of the output.
+
+---
+
+## TC-03: Invalid Data
+
+**Objective:** To verify that the program skips invalid and negative rainfall records.
+
+**Input:** CSV file containing non-numeric, negative, and missing rainfall values.
+
+**Expected Output:**
+- Valid records: 3
+- Invalid records skipped: 4
+- Total rainfall: 250 mm
+- Average rainfall: 83.33 mm
+
+**Actual Output:** The program skipped invalid records and analyzed the remaining valid data.
+
+**Status:** PASS
+
+**Screenshot:** Insert screenshot of the output.
+
+---
+
+## TC-04: Rainfall Statistics
+
+**Objective:** To verify the rainfall statistical calculations.
+
+**Input:** Original rainfall dataset.
+
+**Expected Output:**
+- Total rainfall: 1405 mm
+- Average rainfall: 117.08 mm
+- Maximum rainfall: 300 mm
+- Minimum rainfall: 30 mm
+- Standard deviation: 83.83 mm
+
+**Actual Output:** The program displayed the expected statistical values.
+
+**Status:** PASS
+
+**Screenshot:** Insert screenshot of the statistics.
+
+---
+
+## TC-05: Heavy Rainfall and Average Comparison
+
+**Objective:** To identify heavy rainfall months and compare rainfall with the average.
+
+**Input:** Original rainfall dataset.
+
+**Expected Output:**
+- Heavy rainfall months: July and August
+- Above-average and below-average months are displayed correctly.
+
+**Actual Output:** The program correctly identified heavy rainfall months and displayed the average comparison.
+
+**Status:** PASS
+
+**Screenshot:** Insert screenshots of both outputs.
+
+---
+
+## TC-06: Data Visualization
+
+**Objective:** To verify that the program generates rainfall charts.
+
+**Input:** Original rainfall dataset.
+
+**Expected Output:**
+- Bar chart displays monthly rainfall.
+- Line chart displays monthly rainfall trends.
+
+**Actual Output:** Both charts were displayed successfully.
+
+**Status:** PASS
+
+**Screenshots:** Insert bar chart and line chart screenshots.
+
+---
+
+## TC-07: Menu Validation and Exit
+
+**Objective:** To verify menu input validation and program termination.
+
+**Input:** Invalid menu choice 9, followed by valid choice 8.
+
+**Expected Output:**
+- Invalid choice message is displayed.
+- Program exits successfully when option 8 is selected.
+
+**Actual Output:** The program displayed the invalid-choice message and exited successfully.
+
+**Status:** PASS
+
+**Screenshot:** Insert screenshot of the output.
+
+---
+
+## CONCLUSION
+
+The Rainfall Data Analyzer was tested using different input datasets and menu options. The program successfully performed rainfall analysis, handled invalid data, generated charts, and displayed the required outputs.
